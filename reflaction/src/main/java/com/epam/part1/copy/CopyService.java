@@ -1,4 +1,4 @@
-package com.epam.copy;
+package com.epam.part1.copy;
 
 import java.lang.reflect.Field;
 

@@ -1,7 +1,7 @@
-package com.epam.app;
+package com.epam.part1.app;
 
-import com.epam.copy.CopyService;
-import com.epam.model.C;
+import com.epam.part1.copy.CopyService;
+import com.epam.part1.model.C;
 
 public class App {
 	public static void main(String[] args) {

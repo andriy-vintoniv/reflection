@@ -1,10 +1,19 @@
-package com.epam.model;
+package com.epam.part1.model;
 
-public class C extends B {
+public class B extends A {
+	private static int f10;
 	private long f1;
 	protected String f2;
 	public double f3;
 	short f4;
+
+	public static int getF10() {
+		return f10;
+	}
+
+	public static void setF10(int f10) {
+		B.f10 = f10;
+	}
 
 	public long getF1() {
 		return f1;
@@ -41,7 +50,7 @@ public class C extends B {
 	@Override
 	public String toString() {
 		return String
-				.format("Class C: [f0 = %d, f10 = %d, f1 = %d, f2 = %s, f3 = %f, f4 = %d]",
-						getF0(), getF10(), f1, f2, f3, f4);
+				.format("Class B: [f0 = %d, f10 = %d, f1 = %d, f2 = %s, f3 = %f, f4 = %d]",
+						getF0(), f10, f1, f2, f3, f4);
 	}
 }
